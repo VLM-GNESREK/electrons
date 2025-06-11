@@ -7,6 +7,6 @@ describe('String Calculator', function()
 
     it('Should return 6 for the array [1,2,3,4,5]', function()
     {
-        expect(game.run([1,2,3,4,5])).toEqual(6);
+        expect(calculator.add([1,2,3,4,5])).toEqual(6);
     });
 });
