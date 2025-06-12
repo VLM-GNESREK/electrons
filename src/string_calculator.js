@@ -16,7 +16,7 @@ StringCalculator.prototype.add = function(array)
         }
     }
 
-    let sum = evenCount + oddCount;
+    let sum = evenCount * oddCount;
 
     return sum;
 };

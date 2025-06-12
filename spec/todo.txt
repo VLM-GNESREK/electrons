@@ -2,8 +2,8 @@ TODO LIST
 
 Current Hypothesis: Odd * Even Numbers
 
-TC0: [1,2,3,4,5] => 6       | IN PROGRESS - FAIL
-- In the next coding phase Implement Code based on the Current Hypothesis. => Initial implementation failed, other hypothesis needed.
+TC0: [1,2,3,4,5] => 6       | OK // Fixed Error where it was taking the sum, not the product.
+
 TC1: [2,2,3,3] => 4
 
 TC2: [6,6,4,4,1,3] => 2
