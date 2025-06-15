@@ -3,20 +3,19 @@
 function StringCalculator() {}
 StringCalculator.prototype.add = function(array) 
 {
-    let evenCount = 0;
-    let oddCount = 0;
+    let sum = 0;
 
     for(let i = 0; i < array.length; i++)
     {
-        if(array[i] % 2 === 0)
+        if(array[i] === 3)
         {
-            evenCount++;
-        } else {
-            oddCount++;
+            sum += 2;
+        }
+        else if(array[i] === 5)
+        {
+            sum += 4;
         }
     }
-
-    let sum = evenCount * oddCount;
 
     return sum;
 };
