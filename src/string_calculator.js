@@ -7,6 +7,10 @@ StringCalculator.prototype.add = function(array)
 
     for(let i = 0; i < array.length; i++)
     {
+        if(array[i] < 0 || array[i] > 6)
+        {
+            return -1; // Invalid Input
+        }
         if(array[i] === 3)
         {
             sum += 2;
