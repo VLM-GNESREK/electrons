@@ -9,4 +9,9 @@ describe('String Calculator', function()
     {
         expect(calculator.add([1,2,3,4,5])).toEqual(6);
     });
+
+    it('Should return 4 for the array [2,2,3,3]', function()
+    {
+        expect(calculator.add([2,2,3,3])).toEqual(4);
+    });
 });
